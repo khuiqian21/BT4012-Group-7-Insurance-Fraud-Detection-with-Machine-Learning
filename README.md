@@ -48,6 +48,7 @@ Run the notebooks in this order:
 4. **BT4012_Group07_Correlation.ipynb**
 
 Each modelling notebook includes stratified splitting, Optuna tuning, ROC-AUC evaluation, and business-centric threshold optimisation.
+The XGBoost notebook additionally includes the final test-set evaluation.
 
 ---
 
@@ -60,7 +61,7 @@ Each modelling notebook includes stratified splitting, Optuna tuning, ROC-AUC ev
 | MLP | 0.7935 | $951 |
 | Logistic Regression | 0.7634 | $901 |
 
-**Final Test Performance (XGBoost, threshold = 0.10):**
+**Final Test Performance (XGBoost, business-optimal threshold = 0.10):**
 - ROC-AUC: 0.8285  
 - Fraud recall: 0.97  
 - Precision: 0.13  
