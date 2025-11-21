@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ## How to Run the Project
 
-Run the notebooks in this order:
+Run the notebooks in this order in Google Colab. Ensure the root folder containing all these files is named "bt4012" in your Google Drive. 
 
 1. **BT4012_Group07_Data_Preparation.ipynb**  
 2. **BT4012_Group07_EDA.ipynb**  
